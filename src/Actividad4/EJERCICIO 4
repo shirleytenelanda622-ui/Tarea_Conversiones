@@ -1,0 +1,9 @@
+Actividad 4 — Integración Final
+Crea un sistema de conversión de monedas con manejo de excepciones. El programa debe:
+6. Definir la excepción personalizada MonedaNoSoportadaException.
+7. Crear el método double convertir(String monedaOrigen, String monedaDestino, double cantidad)
+que lance la excepción si la moneda no está soportada.
+8. Soportar al menos: USD, EUR Usar tasas de cambio hardcodeadas.
+9. Leer la cantidad como String desde Scanner y convertirla a double con manejo de
+NumberFormatException.
+10. Imprimir el resultado con exactamente 2 decimales usando casting y/o String.format.
