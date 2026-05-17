@@ -1,0 +1,11 @@
+Actividad 1 — Manejo de Excepciones Básico
+Crea un programa Java que realice las siguientes acciones utilizando manejo de excepciones:
+TAREA — Unidad 3: Manejo de Excepciones y Conversión de Datos en Java Programación Orientada a Objetos
+Unidad 3 — Java | Pág. 6 © Programación Avanzada en Java
+1. Solicitar al usuario que ingrese un número entero (usa Scanner).
+2. Dividir 100 entre ese número capturando ArithmeticException (división por cero).
+3. Si el usuario ingresa un texto en vez de número, capturar NumberFormatException.
+4. Usar finally para mostrar el mensaje: 'Programa finalizado correctamente'.
+5. Utilizar múltiples bloques catch en el mismo try.
+💡 Salida esperada: si se ingresa 0 → 'No se puede dividir por cero'. Si se ingresa 'abc' → 'Debe
+ingresar un número válido'. Si se ingresa 4 → 'Resultado: 25.0'.
