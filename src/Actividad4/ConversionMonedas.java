@@ -9,6 +9,9 @@ public class ConversionMonedas {
         if(monedaOrigen.equals("EUR") && monedaDestino.equals("USD")){
             return cantidad * 1.09;
         }
+        if(monedaOrigen.equals("USD") && monedaDestino.equals("EUR")){
+            return cantidad * 0.92;
+        }
         return cantidad;
     }
 }
