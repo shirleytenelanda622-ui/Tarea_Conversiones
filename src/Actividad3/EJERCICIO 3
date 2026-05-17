@@ -1,0 +1,11 @@
+Actividad 3 — Conversión Implícita y Explícita
+Crea un programa que demuestre los siguientes conceptos de conversión de datos:
+● PARTE A — Conversión implícita: declara variables byte, short, int, long, float y double. Asigna
+cada una usando widening e imprime los valores.
+● PARTE B — Casting explícito: desde un double con valor 45.89, obtén versiones como float, int,
+short y byte mediante casting. Imprime los resultados y comenta qué información se pierde.
+● PARTE C — Conversión con Strings: convierte los Strings '2024', '98.6', 'false' a sus tipos
+correspondientes (int, double, boolean). Luego conviértelos de vuelta a String usando tres
+métodos diferentes.
+● PARTE D — Casting de objetos: crea una jerarquía Animal → Perro, instancia un Perro, asígnalo
+a una variable Animal y vuelve a castearlo a Perro usando instanceof
