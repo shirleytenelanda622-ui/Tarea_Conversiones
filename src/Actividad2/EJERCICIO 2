@@ -1,0 +1,8 @@
+Actividad 2 — Excepción Personalizada
+Diseña un sistema de registro de estudiantes con excepción personalizada. Requiere:
+● Crear la clase EdadInvalidaException que extienda Exception.
+● La excepción debe incluir el atributo int edadIngresada y un mensaje descriptivo.
+● Crear la clase Estudiante con atributos: nombre (String), edad (int), promedio (double).
+● En el constructor, lanzar EdadInvalidaException si la edad < 0 o > 120.
+● Crear la clase Principal con main que cree al menos 3 estudiantes (uno con edad inválida).
+● Manejar la excepción personalizada con try-catch y mostrar el mensaje de error.
